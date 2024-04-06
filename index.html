@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="style.css">
 
   <title>Animais Fantásticos</title>
+  <script>
+    document.documentElement.className += ' js'
+  </script>
 </head>
 
 <body>
@@ -22,7 +25,7 @@
 
   <section class="grid-section animais" id="animais">
     <h1 class="titulo">Animais Fantásticos</h1>
-    <ul class="animais-lista">
+    <ul class="animais-lista js-tabmenu">
       <li>
         <img src="img/imagem1.jpg" alt="Raposa">
       </li>
@@ -42,7 +45,7 @@
         <img src="img/imagem6.jpg" alt="leão">
       </li>
     </ul>
-    <div class="animais-decricao">
+    <div class="animais-decricao js-tabcontent">
       <section>
         <h2>Raposa</h2>
         <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</p>
@@ -95,7 +98,7 @@
 
   <section class="grid-section faq" id="faq">
     <h1 class="titulo">FAQ</h1>
-    <dl class="faq-lista">
+    <dl class="faq-lista js-accordion">
       <dt>Qual a idade dos animais?</dt>
       <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
       <dt>Eles são fantásticos?</dt>
@@ -124,7 +127,7 @@
     <p>Todos os direitos reservados.</p>
   </footer>
 
-  <script src="main.js"></script>
+  <script src="script.js "></script>
 </body>
 
 </html>
